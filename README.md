@@ -1,3 +1,4 @@
 ## `🐘 PostgreSQL - это объектно-реляционная Система Управления Базами Данных`
 ### [🗄️ Команды](https://github.com/KostrikinOfficial/Manual-PostgreSQL/blob/main/%F0%9F%97%84%EF%B8%8F%20Commands.md)
 ### [📄 [1.1] SQL-скрипты](https://github.com/KostrikinOfficial/Manual-PostgreSQL/blob/main/%F0%9F%93%84%20SQL-%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D1%8B.md)
+### [🗳️ [1.2] Подзапросы](https://github.com/KostrikinOfficial/Manual-PostgreSQL/blob/main/%F0%9F%97%B3%EF%B8%8F%20%D0%9F%D0%BE%D0%B4%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B.md)
