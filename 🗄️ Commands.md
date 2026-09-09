@@ -2,6 +2,7 @@
 ### 🆕 `CREATE` - создание новых объектов.
 - 📦 `CREATE DATABASE` - создание базы данных: `CREATE DATABASE base;`
 - 📋 `CREATE TABLE` - создание таблицы: `CREATE TABLE users ( id SERIAL4 PRIMARY KEY );`
+- 👓 `CREATE VIEW` - создание представления: `CREATE VIEW views AS SELECT ... ;`
 ___
 ### 🏗️ `ALTER TABLE` - изменение структуры существующей таблицы.
 - ➕ `ADD COLUMN` - Добавить колонку: `ALTER TABLE users ADD COLUMN user_id;`
@@ -10,9 +11,10 @@ ___
 - ✏️ `RENAME COLUMN` - Переименовать колонку: `ALTER TABLE users RENAME COLUMN mail TO email;`
 - 🖋️ `RENAME TO` - Переименовать таблицу: `ALTER TABLE user RENAME TO users;`
 ___
-### ❌ `DROP` - удаление объектов.
+### 🗑️ `DROP` - удаление объектов.
 - 📦 `DROP DATABASE` - удаление базы данных: `DROP DATABASE base;`
 - 📋 `DROP TABLE` - удаление таблицы: `DROP TABLE users;`
+- 👓 `DROP VIEW` - удаление представления: `DROP VIEW views;`
 ___
 ### ➕ `INSERT ` - добавление строк в таблицу.
 - 📥 `INTO` - указание таблицы и колонок, куда пойдут данные: `INSERT INTO users (username, password) ...`
