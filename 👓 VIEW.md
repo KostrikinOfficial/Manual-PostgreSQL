@@ -1,0 +1,59 @@
+## 👓 `VIEW`
+### `VIEW` - это...
+Сохраненное представление, основанное на SQL-запросе.
+
+Например: `CREATE VIEW view_students AS SELECT * FROM students;`
+
+Теперь можно написать: `SELECT * FROM view_students;`
+
+Обычный `VIEW` не является отдельной копией данных таблицы. Он представляет результат определенного запроса.
+
+### `VIEW` не дублирует таблицу!
+Если изменить данные таблицы после создания представления, результат `VIEW` изменится автоматически при следующем запросе к нему, потому что обычное представление основывается на запросе к исходным данным.
+## 📸 `CREATE OR REPLACE VIEW`
+Если представление уже существует, можно изменить его определение: `CREATE OR REPLACE VIEW view_students AS SELECT * FROM students WHERE age >= 18;`
+
+Это позволяет обновлять определение представления без его полного удаления в ситуациях, где изменение совместимо с ограничениями PostgreSQL на замену представителя.
+
+## 🗑️ `DROP VIEW`
+Удалить представление: `DROP VIEW view_students;`, это удалит само представление а не исходную таблицу.
+
+
+Задание 1.
+
+class Developer extends Employee {
+
+Developer(String name) {
+super(name);
+}
+
+@Override
+void work() {
+System.out.print(super.getname() + " пишет код...");
+}
+}
+
+Задание 2.
+public interface Prientable {
+
+    void print();
+}
+public class Students implements Prientable{
+
+    private String name;
+
+    Students(String name) {
+        this.name = name;
+    }
+
+    String getName() {
+        return this.name;
+    }
+
+    @Override
+    public void print() {
+        System.out.println("Student: " + getName());
+    }
+}
+
+Задание 3.
