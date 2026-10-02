@@ -3,6 +3,7 @@
 - 📦 `CREATE DATABASE` - создание базы данных: `CREATE DATABASE base;`
 - 📋 `CREATE TABLE` - создание таблицы: `CREATE TABLE users ( id SERIAL4 PRIMARY KEY );`
 - 👓 `CREATE VIEW` - создание представления: `CREATE VIEW views AS SELECT ... ;`
+- ⚡ `CREATE INDEX` - создание индекса: `CREATE INDEX idx_users_id ON users(id);`
 ___
 ### 🏗️ `ALTER TABLE` - изменение структуры существующей таблицы.
 - ➕ `ADD COLUMN` - Добавить колонку: `ALTER TABLE users ADD COLUMN user_id;`
