@@ -7,3 +7,4 @@
 ### [👓 [1.5] `VIEW`](https://github.com/KostrikinOfficial/Manual-PostgreSQL/blob/main/%F0%9F%91%93%20VIEW.md)
 ### [📊 [1.6] Транзакции](https://github.com/KostrikinOfficial/Manual-PostgreSQL/blob/main/%F0%9F%93%8A%20%D0%A2%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D0%B8%D0%B8.md)
 ### [💎 [1.7] ACID](https://github.com/KostrikinOfficial/Manual-PostgreSQL/blob/main/%F0%9F%92%8E%20ACID.md)
+### [⚡ [1.9] Индексы B-tee](https://github.com/KostrikinOfficial/Manual-PostgreSQL/blob/main/%E2%9A%A1%20%D0%98%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D1%8B%20B-tree.md)
