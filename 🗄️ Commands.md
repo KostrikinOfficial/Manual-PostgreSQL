@@ -46,6 +46,7 @@ ___
 - 🚦 `HAVING` - фильтрация, после группировки: `SELECT category FROM users GROUP BY category HAVING AVG(balance) > 10000;`
 - 🚩 `UNION` - объединить результаты нескольких выборок (БЕЗ ДУБЛИКАТОВ): `SELECT ... UNION SELECT ...;`
 - 🏳️ `UNION ALL` - объединить результаты нескольких выборов (С ДУБЛИКАТАМИ): `SELECT ... UNION ALL SELECT ...;`
+- 🔬 `EXPLAIN` - показать план действий: `EXPLAIN SELECT ...`
 ___
 ### ⛓️ `JOIN` - объединение строк из двух и более таблиц на основе общего поля.
 - 🔸 `ON` - условия связывания: `... JOIN statuses ON user.status = statuses.id ...`
